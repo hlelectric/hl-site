@@ -141,7 +141,7 @@ section[id]{scroll-margin-top:84px}
 .gallery-sun .tile img{aspect-ratio:3/4}
 .gallery-sun .tile.lead{grid-column:span 2}
 .gallery-more .tile.sq img{aspect-ratio:1/1}
-.gallery-more .tile.sq:first-child{grid-column:span 2}
+.gallery-more img[src*="patio-fan-vaulted-ceiling"]{object-position:50% 100%}
 .gallery-more .tile.wide{grid-column:span 2}
 .gallery-more .tile.wide img{aspect-ratio:4/3}
 .tile figcaption{padding:8px 10px;color:#e6ebf3;font-size:.9rem;line-height:1.3}
@@ -152,9 +152,9 @@ section[id]{scroll-margin-top:84px}
   .gallery-sun .tile.lead{grid-column:span 2;grid-row:span 2}
   .gallery-sun .tile.lead picture{position:absolute;inset:0}
   .gallery-sun .tile.lead img{aspect-ratio:auto}
-  .gallery-more{grid-template-columns:repeat(6,1fr)}
-  .gallery-more .tile.sq,.gallery-more .tile.sq:first-child{grid-column:span 2}
-  .gallery-more .tile.wide{grid-column:span 3}
+  .gallery-more{grid-template-columns:repeat(12,1fr)}
+  .gallery-more .tile.sq{grid-column:span 3}
+  .gallery-more .tile.wide{grid-column:span 6}
   .tile figure{display:block}
   .tile figcaption{position:absolute;left:0;right:0;bottom:0;background:rgba(10,19,34,.86);font-size:.95rem;padding:10px 14px}
 }
