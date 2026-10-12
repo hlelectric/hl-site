@@ -248,3 +248,16 @@ section[id]{scroll-margin-top:84px}
 .foot-phone{font-size:1.35rem;font-weight:800;color:var(--amber)!important;text-decoration:none}
 .copy{border-top:1px solid rgba(255,255,255,.12);margin-top:28px;padding-top:18px;font-size:.92rem}
 @media (min-width:800px){.foot-grid{grid-template-columns:1.3fr 1fr 1fr 1fr}}
+
+/* local SEO pages */
+.seo-grid{display:grid;gap:28px}
+@media(min-width:900px){.seo-grid{grid-template-columns:minmax(0,1fr) 320px;align-items:start}}
+.prose{max-width:46rem}.prose h2{font-size:1.45rem;margin:1.2em 0 .4em}.prose h2:first-child{margin-top:0}.prose p,.prose li{line-height:1.65}.prose ul{padding-left:1.2em}
+.seo-side{display:grid;gap:16px}.seo-side .info-block + .info-block{margin-top:0}.seo-side .info-block h3{color:var(--white)}.seo-side .info-block a{color:var(--amber)}.seo-side .info-block .btn-call{color:inherit}.seo-side .contact-actions{display:grid;gap:10px;margin-top:10px}
+.seo-side .foot-phone{font-size:1.3rem;font-weight:800}
+.seo-quote{max-width:46rem;margin:28px auto 0}
+.seo-links{display:grid;gap:24px}@media(min-width:800px){.seo-links{grid-template-columns:1fr 1fr}}
+.seo-links ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:10px}.seo-links a{display:inline-block;padding:8px 14px;border:1px solid var(--line);border-radius:999px;font-weight:600}
+.foot-towns{list-style:none;padding:0;margin-top:.6em}.foot-towns li{margin:.2em 0}
+.towns a{color:inherit}
+@media(min-width:800px){.gallery-more.n4 .tile.sq{grid-column:span 3}.gallery-more.n2 .tile.sq{grid-column:span 5}.gallery-more.n2 .tile.sq:first-child{grid-column:2/span 5}.gallery-more.n1 .tile.sq{grid-column:4/span 6}}
